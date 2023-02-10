@@ -1,0 +1,13 @@
+const { consultarCep } = require('correios-brasil');
+
+const cep = '23812310';
+consultarCep(cep).then(response => {
+  console.log(response);
+});
+
+const { consultarCep } = require('correios-brasil');
+
+const cep = '55900000';
+consultarCep(cep).then(response => {
+  console.log(response);
+});
